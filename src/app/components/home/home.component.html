@@ -1,0 +1,29 @@
+<div>
+  <h1>Welcome to {{ appname }}</h1>
+</div>
+
+<div>
+  <button *ngIf="!contacts" (click)="showContact()">Load Contacts</button>
+  <input name="term" [(ngModel)]="term" *ngIf="contacts" type="text" placeholder="Search by Name">
+</div>
+
+<br>
+
+
+<table *ngIf="contacts">
+  <thead>
+    <tr>
+      <th><a href="#">Name</a></th>
+      <th>Phone Number</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let info of contacts | filter: termGENERAL | filter : term | filter: termPhone; let i = index">
+      <td>{{ info.name }}</td>
+      <td>{{ info.phone_number }}</td>
+      <td>{{ info.address }}</td>
+    </tr>
+  </tbody>
+</table>
+
