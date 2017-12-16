@@ -3,8 +3,15 @@
 </div>
 
 
+
   <table *ngIf="contacts" class="table__container">
+
     <thead>
+        <button class="btn-sort btn__up btn__down"
+        (click)="sortType('name')"
+        [class.active]="sortBy === 'name'">Sort By Name (A-Z)
+        </button>
+
       <tr class="searchContact">
         <th><input name="filterName" [(ngModel)]="filterName" placeholder="Search by Name"></th>
         <th><input name="filterNumber" [(ngModel)]="filterNumber" placeholder="Phone Number"></th>

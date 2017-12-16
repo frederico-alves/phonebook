@@ -10,7 +10,6 @@ import { HomeComponent } from './components/home/home.component';
 import { PhonebookService } from './services/phonebook.service'
 import { NAMEfilter, NUMBERfilter, ADDRESSfilter } from './pipes/filter.pipe';
 
-
 @NgModule({
   declarations: [
     AppComponent,

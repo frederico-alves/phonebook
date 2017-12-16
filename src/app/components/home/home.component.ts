@@ -16,7 +16,6 @@ export class HomeComponent implements OnInit {
   appname:string = 'Phonebook';
   contacts: Contact[];
 
-
   constructor(private phoneService:PhonebookService) { }
   
 
@@ -35,4 +34,16 @@ export class HomeComponent implements OnInit {
       });
   }
 
+  sortByName(n1: Contact, n2: Contact) {
+    //compares A to B
+    if(n1.name > n2.name) return 1
+        else if(n1.name === n2.name) return 0
+            else return -1
+  }
+
+  sortType(sort: string) {
+    if(sort === 'name') {
+        this.contacts = this.contacts.sort(this.sortByName);
+        console.log(this.contacts);
+    }
 }

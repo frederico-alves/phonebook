@@ -75,8 +75,8 @@ h2 {
   }
 
   ::selection {
-    background-color: #55c57a;
-    color: #fff; }
+    background-color: #FFEB3B;
+    color: #000; }
 
 .sticked-bottom {
     position: absolute;
