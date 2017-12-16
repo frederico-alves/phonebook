@@ -20,6 +20,6 @@ And with just a click... SORT BY NAME (A-Z)
 
 
 
-## Further help
+## Further Informaion
 
-To get more help on the Phonebook project please feel free to message me or email to fredericoalvesJS@gmail.com or contact@fredericoalves.uk
+To get more information on the Phonebook project please feel free to message me or email to fredericoalvesJS@gmail.com or contact@fredericoalves.uk
