@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
   
 
   ngOnInit() {
-     // Load contacts from the books service on init
+    //  Load contacts from the books service on init
     //  this.phoneService.getContacts().subscribe(
     //   (contacts: Contact[]) => {
     //     this.contacts = contacts;
