@@ -1,9 +1,9 @@
 # Phonebook
+[CLICK HERE - Project Published](http://fredericoalves.uk/phonebook/) <br>
+Hackajob Challenge generated with Angular CLI version 1.5.5.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
-
-
-
+![phonebook_logo](https://user-images.githubusercontent.com/31135848/34066840-d782c26e-e20d-11e7-9a30-a83f115c6363.png)
+Published at 
 ![phonebook_filtersearch](https://user-images.githubusercontent.com/31135848/34066813-4a432e3e-e20d-11e7-8f46-c0df5aa4a7a4.png)
 
 ![phonebook_contactlist](https://user-images.githubusercontent.com/31135848/34066815-4c63b30a-e20d-11e7-8e6d-9c212781297e.png)
