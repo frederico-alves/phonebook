@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
 
-![phonebook_main](https://user-images.githubusercontent.com/31135848/34066809-460beb58-e20d-11e7-97ea-2dd3e3d05b05.png)
+
 
 ![phonebook_filtersearch](https://user-images.githubusercontent.com/31135848/34066813-4a432e3e-e20d-11e7-8f46-c0df5aa4a7a4.png)
 
