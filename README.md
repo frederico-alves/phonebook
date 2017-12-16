@@ -7,7 +7,8 @@ Hackajob Challenge generated with Angular CLI version 1.5.5.
 
 
 ## Install
-1. Clone repository. <br>
+1. Clone repository running `git clone https://github.com/fredericoAlvesJS/phonebook.git`<br>
+2. Run `cd phonebook`
 2. Run `npm install`. It will install Node dependencies automatically.
 3. Run `ng serve --open` for a dev server.
 4. Navigate to `http://localhost:4200/`.
@@ -16,9 +17,6 @@ Hackajob Challenge generated with Angular CLI version 1.5.5.
 ## Search by... ANYTHING
 And with just a click... SORT BY NAME (A-Z)
 ![phonebook_filtersearch](https://user-images.githubusercontent.com/31135848/34067286-9b5796b4-e219-11e7-9c2d-cacde936965d.png)
-
-
-
 
 ## Further Informaion
 
