@@ -45,5 +45,4 @@ export class HomeComponent implements OnInit {
     if(sort === 'name') {
         this.contacts = this.contacts.sort(this.sortByName);
         console.log(this.contacts);
-    }
-}
+    }}}
