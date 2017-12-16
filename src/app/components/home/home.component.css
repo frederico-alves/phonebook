@@ -15,6 +15,10 @@ td {
     padding: 15px 5px;
 }
 
+.table__container tr {
+	transition: all .2s ease-out;
+}
+
 /* Background-color of the odd rows */
 .table__container tr:nth-child(odd) {
     background-color: #f0f0f0;
@@ -34,17 +38,8 @@ td {
 }
 
 .table__container tr:not(.searchContact):hover {
-    background-color: #212121;
-    color: white;
-    font-weight: bold;
-    
-    box-shadow: #FFEB3B -1px 1px, #FFEB3B -2px 2px, #FFEB3B -3px 3px, #FFEB3B -4px 4px;
-    transform: translate3d(4px, -4px, 0);
-    
-    transition-delay: 0s;
-        transition-duration: 0.4s;
-        transition-property: all;
-    transition-timing-function: line;
+	background-color: #fff;
+    transform: scale(1.02);
   }
 
 th input {
