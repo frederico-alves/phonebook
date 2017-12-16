@@ -14,7 +14,9 @@ Hackajob Challenge generated with Angular CLI version 1.5.5.
 5. Analyze the code with your favourite code editor. The app will automatically reload if you change any of the source files.
 
 ## Search by... ANYTHING
-![phonebook_filtersearch](https://user-images.githubusercontent.com/31135848/34066813-4a432e3e-e20d-11e7-8f46-c0df5aa4a7a4.png)
+
+![phonebook_filtersearch](https://user-images.githubusercontent.com/31135848/34066969-3254f9ac-e211-11e7-94f9-2b52aba679fa.png)
+
 
 ## Further help
 
