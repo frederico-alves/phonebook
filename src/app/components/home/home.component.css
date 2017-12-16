@@ -1,0 +1,128 @@
+.table__container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+.thead {
+    margin-bottom: 50px;
+}
+
+td {
+    padding: 15px 5px;
+}
+
+/* Background-color of the odd rows */
+.table__container tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/* Background-color of the even rows */
+.table__container tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.table__container th {
+    background-color: #cb2d3e;
+}
+
+.table__container td:first-child {
+    font-weight: 600;
+}
+
+.table__container tr:not(.searchContact):hover {
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+    
+    box-shadow: #FFEB3B -1px 1px, #FFEB3B -2px 2px, #FFEB3B -3px 3px, #FFEB3B -4px 4px;
+    transform: translate3d(4px, -4px, 0);
+    
+    transition-delay: 0s;
+        transition-duration: 0.4s;
+        transition-property: all;
+    transition-timing-function: line;
+  }
+
+th input {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: inherit;
+    color: #cb2d3e;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 100%;
+    display: block;
+ }
+ 
+
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn__container {
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	color: #fff;
+}
+.btn__background {
+	position: relative;
+	margin: 0;
+	padding: 15px;
+	z-index: 1;
+}
+
+
+.btn__up {
+	border: 3px solid #fff;
+	color: #fff;
+}
+.btn__down:after {
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+}
+
+.btn__down:hover,
+.btn__down:active {
+	color: #000;
+}
+
+.btn__down:hover:after,
+.btn__down:active:after {
+	height: 100%;
+}

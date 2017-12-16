@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injectable, OnInit } from '@angular/core';
 import { PhonebookService } from '../../services/phonebook.service';
 import { Contact } from '../../models/Contact';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/min';
 
 @Component({
   selector: 'app-home',
@@ -8,24 +10,29 @@ import { Contact } from '../../models/Contact';
   styleUrls: ['./home.component.css']
 })
 
+@Injectable()
 export class HomeComponent implements OnInit {
 
-  constructor(private phoneServ:PhonebookService) {}
-
-  contacts: Contact[];
-  copyContacts: Contact[];
-  errorMessage: string;
   appname:string = 'Phonebook';
+  contacts: Contact[];
+
+
+  constructor(private phoneService:PhonebookService) { }
+  
 
   ngOnInit() {
+     // Load contacts from the books service on init
+    //  this.phoneService.getContacts().subscribe(
+    //   (contacts: Contact[]) => {
+    //     this.contacts = contacts;
+    //   });
   }
 
-  showContact() {
-    this.phoneServ.getInfo()
-    .subscribe(
-      contacts => this.contacts = contacts,
-      error => this.errorMessage = <any>error
-    )
+  loadContacts() {
+    this.phoneService.getContacts().subscribe(
+      (contacts: Contact[]) => {
+        this.contacts = contacts;
+      });
   }
 
 }

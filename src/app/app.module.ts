@@ -8,14 +8,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 
 import { PhonebookService } from './services/phonebook.service'
-import { FilterPipe } from './pipes/filter.pipe';
+import { NAMEfilter, NUMBERfilter, ADDRESSfilter } from './pipes/filter.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FilterPipe
+    NAMEfilter,
+    NUMBERfilter,
+    ADDRESSfilter
   ],
   imports: [
     BrowserModule,

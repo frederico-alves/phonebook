@@ -1,29 +1,36 @@
-<div>
-  <h1>Welcome to {{ appname }}</h1>
+<div class="title"> 
+  <h1 class="appname"><span class="top">Phone</span><span class="bottom">Book</span></h1>
 </div>
 
-<div>
-  <button *ngIf="!contacts" (click)="showContact()">Load Contacts</button>
-  <input name="term" [(ngModel)]="term" *ngIf="contacts" type="text" placeholder="Search by Name">
+
+  <table *ngIf="contacts" class="table__container">
+    <thead>
+      <tr class="searchContact">
+        <th><input name="filterName" [(ngModel)]="filterName" placeholder="Search by Name"></th>
+        <th><input name="filterNumber" [(ngModel)]="filterNumber" placeholder="Phone Number"></th>
+        <th><input name="filterAddress" [(ngModel)]="filterAddress" placeholder="Address"></th>
+      </tr>
+    </thead>
+    <br>
+    <tbody>
+      <tr *ngFor="let contact of contacts | nameFilter: filterName | numberFilter: filterNumber | addressFilter: filterAddress">
+        <td>{{contact.name}}</td>
+        <td>{{contact.phone_number}}</td>
+        <td>{{contact.address}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+<div *ngIf="!contacts" class="btn__container">
+    <div class="btn__background">
+        <button class="btn btn__up btn__down" (click)="loadContacts()">Load Contact List</button>
+      </div>
 </div>
 
-<br>
 
+<div class="sticked-bottom">
+    <h2>Created by <a href="http://fredericoalves.uk" target="_blank">Frederico Alves</a></h2>
+</div>
 
-<table *ngIf="contacts">
-  <thead>
-    <tr>
-      <th><a href="#">Name</a></th>
-      <th>Phone Number</th>
-      <th>Address</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let info of contacts | filter: termGENERAL | filter : term | filter: termPhone; let i = index">
-      <td>{{ info.name }}</td>
-      <td>{{ info.phone_number }}</td>
-      <td>{{ info.address }}</td>
-    </tr>
-  </tbody>
-</table>
 
