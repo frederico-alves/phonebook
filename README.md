@@ -1,6 +1,6 @@
 # Phonebook
 
-[CLICK HERE - Project Published](http://fredericoalves.uk/phonebook/) <br>
+[CLICK HERE to View the Project Published](http://fredericoalves.uk/phonebook/) <br>
 Hackajob Challenge generated with Angular CLI version 1.5.5.
 
 ![phonebook_logo](https://user-images.githubusercontent.com/31135848/34066840-d782c26e-e20d-11e7-9a30-a83f115c6363.png)
