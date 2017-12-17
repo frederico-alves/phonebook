@@ -18,6 +18,11 @@ Hackajob Challenge generated with Angular CLI version 1.5.5.
 And with just a click... SORT BY NAME (A-Z)
 ![phonebook_filtersearch](https://user-images.githubusercontent.com/31135848/34067286-9b5796b4-e219-11e7-9c2d-cacde936965d.png)
 
-## Further Informaion
+## Powerful Design FIRST
+Fully responsive, a step further for the User Interface!
+![responsive mobile](https://user-images.githubusercontent.com/31135848/34081243-17fa03c2-e342-11e7-822c-cd20fbfe8f0e.png)
+
+
+## Further Information
 
 To get more information on the Phonebook project please feel free to message me or email to fredericoalvesJS@gmail.com or contact@fredericoalves.uk

@@ -15,6 +15,10 @@ td {
     padding: 15px 5px;
 }
 
+@media only screen and (max-width: 37.5em) {
+	td {padding: 0 2px; font-size: 12px;}
+}
+
 .table__container tr {
 	transition: all .2s ease-out;
 }
@@ -77,6 +81,10 @@ th input {
 	transition: all 0.3s;
 }
 
+@media only screen and (max-width: 37.5em) {
+	.btn-sort {width: 200%}
+}
+
 .btn {
 	border: none;
 	font-family: inherit;
@@ -97,6 +105,15 @@ th input {
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
+@media only screen and (max-width: 37.5em) {
+	.btn {
+		margin: 0;
+		margin-bottom: 120px;
+		padding: 25px 30px;
+	}
+}
+
 
 .btn-sort:after,
 .btn:after {
