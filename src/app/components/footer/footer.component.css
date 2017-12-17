@@ -1,0 +1,31 @@
+h2 {
+    z-index: -10;
+    margin: 0;
+    padding: 0;
+    font-size:1em; 
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height:1em;
+    color: #F5F5F5;
+  }
+  
+  h2 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    text-decoration: none;
+    transition: color .3s;
+  }
+
+  h2 a:hover {
+      color: #FFEB3B;
+  }
+
+  ::selection {
+    background-color: #FFEB3B;
+    color: #000; }
+
+.sticked-bottom {
+    margin-bottom: 20px;
+}

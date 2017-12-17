@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 
 import { PhonebookService } from './services/phonebook.service'
 import { NAMEfilter, NUMBERfilter, ADDRESSfilter } from './pipes/filter.pipe';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NAMEfilter, NUMBERfilter, ADDRESSfilter } from './pipes/filter.pipe';
     HomeComponent,
     NAMEfilter,
     NUMBERfilter,
-    ADDRESSfilter
+    ADDRESSfilter,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
