@@ -25,4 +25,4 @@ Fully responsive app, a step ahead for the User Interface!
 
 ## Further Information
 
-To get more information on the Phonebook project please feel free to message me or email to fredericoalvesJS@gmail.com or contact@fredericoalves.uk
+To get more information on the Phonebook project please feel free to message me or email to fredericoalves.info@gmail.com
